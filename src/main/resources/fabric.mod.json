@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pastnames",
+  "version": "${version}",
+  "name": "PastNames",
+  "description": "View a player's previous Minecraft usernames with /pastname.",
+  "authors": ["lerizan"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pastnames/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "leriz.Pastnames"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
